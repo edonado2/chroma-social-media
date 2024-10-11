@@ -1,0 +1,112 @@
+/* page.module.css */
+
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: #E6E6FA; /* Soft Lavender */
+    color: #333333; /* Deep Charcoal */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF6F91; /* Electric Pink */
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 1.5em;
+    color: white;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcomeMessage {
+    margin-bottom: 30px;
+}
+
+.welcomeMessage h1 {
+    font-size: 2.5em;
+    color: #00BFFF; /* Aqua Blue */
+}
+
+.welcomeMessage p {
+    font-size: 1.2em;
+    color: #777; /* Soft gray for readability */
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.carouselItem {
+    min-width: 80%;
+    height: 300px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quickAccess {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.accessButton {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #A8E600; /* Bright Lime Green */
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.accessButton:hover {
+    background-color: #FF9A8B; /* Soft Coral for hover effect */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.footer {
+    background-color: #f4f4f4; /* Light gray for footer */
+    padding: 10px 0;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navIcon {
+    font-size: 1.5em;
+    color: #333333; /* Deep Charcoal */
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.navIcon:hover {
+    color: #FF6F91; /* Electric Pink for hover effect */
+}
