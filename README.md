@@ -114,7 +114,8 @@ Copy code
 ```bash 
     cd chroma-social-media
 ```
-    Install dependencies:
+    
+Install dependencies:
 
 ```bash
     npm install
