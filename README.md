@@ -18,7 +18,7 @@
 
 ## About the Project
 
-**ColorConnect** is a unique social media platform where users connect and express themselves based on their favorite colors. Each user's profile, posts, and interactions revolve around personalized color palettes, making the platform a visually-driven experience. Whether sharing photos, text updates, or interacting with others, color plays a central role in how content is presented and consumed.
+**Chroma** is a unique social media platform where users connect and express themselves based on their favorite colors. Each user's profile, posts, and interactions revolve around personalized color palettes, making the platform a visually-driven experience. Whether sharing photos, text updates, or interacting with others, color plays a central role in how content is presented and consumed.
 
 ---
 
